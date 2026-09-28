@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the relevant manuscript and this numerical companion when using this work."
+type: software
+title: "ERi Zero Sums: Research Manuscripts and Numerical Companion"
+authors:
+  - family-names: "Open"
+version: "0.1.0"
+date-released: "2026-09-27"
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: >-
+  Research drafts on ERi zero sums for zeta and Dirichlet L-functions,
+  a finite real-character prime-counting identity, and numerical code and data.
+  Conditional statements and remaining research limitations are documented.
+keywords:
+  - analytic number theory
+  - Riemann zeta function
+  - Dirichlet L-functions
+  - explicit formulas
+  - Riesz summation

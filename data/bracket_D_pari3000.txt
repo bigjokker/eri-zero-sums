@@ -1,0 +1,121 @@
+data/chi_D-11_zeros_pari3000.txt: D=-11 (odd chi, q=11)  I(2,chi)=0.4314886425  Pi*(2,chi)=-0.5
+  count: 3612 zeros to 2999.139; RvM (T/2pi)log(qT/2pi e) = 3611.5 (diff +0.5); theta/pi + 0.5: 500:-0.16 1000:-0.00 1500:-0.49 2000:-1.02 2500:-0.65 2999:-0.13
+  PARI: L(0)=1.0  L(1)=0.9472258251  L'(0)=0.1014157628  h=1  w=2  reg=1.0  chi(2)=-1
+  class number formula: L(0,chi) - 2h/w = 0.0;  prediction B_T -> log L(0,chi) = 0.0
+  B_T:  T=500: -0.0116  T=1000: +0.0049  T=1500: +0.0051  T=2000: +0.0030  T=2500: +0.0009  T=3000: -0.0019  T=end: -0.0019
+  B_T - log L(0):  T=500: -0.0116  T=1000: +0.0049  T=1500: +0.0051  T=2000: +0.0030  T=2500: +0.0009  T=3000: -0.0019  T=end: -0.0019
+  sum-minus-integral alone (no Pi*(2)): +0.4981 at the end; Paper A section 2.5 predicts log L(0) - chi(2)/2 = 0.5 for odd chi
+
+data/chi_D-15_zeros_pari3000.txt: D=-15 (odd chi, q=15)  I(2,chi)=0.4314886425  Pi*(2,chi)=0.5
+  count: 3761 zeros to 2999.605; RvM (T/2pi)log(qT/2pi e) = 3760.2 (diff +0.8); theta/pi + 0.0: 500:-0.34 1000:+0.13 1500:-0.03 2000:+0.76 2500:+0.44 2999:-0.34
+  PARI: L(0)=2.0  L(1)=1.62231147  L'(0)=-0.05917508024  h=2  w=2  reg=1.0  chi(2)=1
+  class number formula: L(0,chi) - 2h/w = 0.0;  prediction B_T -> log L(0,chi) = 0.69314718
+  B_T:  T=500: +0.6843  T=1000: +0.6970  T=1500: +0.6985  T=2000: +0.6963  T=2500: +0.6933  T=3000: +0.6904  T=end: +0.6904
+  B_T - log L(0):  T=500: -0.0088  T=1000: +0.0038  T=1500: +0.0054  T=2000: +0.0031  T=2500: +0.0002  T=3000: -0.0027  T=end: -0.0027
+  sum-minus-integral alone (no Pi*(2)): +0.1904 at the end; Paper A section 2.5 predicts log L(0) - chi(2)/2 = 0.193147 for odd chi
+
+data/chi_D-24_zeros_pari3000.txt: D=-24 (odd chi, q=24)  I(2,chi)=0.4314886425  Pi*(2,chi)=0.0
+  count: 3985 zeros to 2999.644; RvM (T/2pi)log(qT/2pi e) = 3984.7 (diff +0.3); theta/pi + 0.0: 500:+0.26 1000:+0.33 1500:-0.24 2000:+0.15 2500:-0.57 2999:-0.78
+  PARI: L(0)=2.0  L(1)=1.28254983  L'(0)=-0.8668644524  h=2  w=2  reg=1.0  chi(2)=0
+  class number formula: L(0,chi) - 2h/w = 0.0;  prediction B_T -> log L(0,chi) = 0.69314718
+  B_T:  T=500: +0.6822  T=1000: +0.6937  T=1500: +0.6983  T=2000: +0.6970  T=2500: +0.6932  T=3000: +0.6906  T=end: +0.6906
+  B_T - log L(0):  T=500: -0.0110  T=1000: +0.0005  T=1500: +0.0051  T=2000: +0.0039  T=2500: +0.0000  T=3000: -0.0026  T=end: -0.0026
+
+data/chi_D-3_zeros_pari3000.txt: D=-3 (odd chi, q=3)  I(2,chi)=0.4314886425  Pi*(2,chi)=-0.5
+  count: 2992 zeros to 2999.210; RvM (T/2pi)log(qT/2pi e) = 2991.4 (diff +0.6); theta/pi + 0.0: 500:-0.26 1000:+0.28 1500:+0.19 2000:-0.94 2500:-0.18 2999:-0.53
+  PARI: L(0)=0.3333333333  L(1)=0.6045997881  L'(0)=0.3160662756  h=1  w=6  reg=1.0  chi(2)=-1
+  class number formula: L(0,chi) - 2h/w = 0.0;  prediction B_T -> log L(0,chi) = -1.0986123
+  B_T:  T=500: -1.0991  T=1000: -1.0956  T=1500: -1.0942  T=2000: -1.0968  T=2500: -1.0992  T=3000: -1.1007  T=end: -1.1007
+  B_T - log L(0):  T=500: -0.0005  T=1000: +0.0030  T=1500: +0.0045  T=2000: +0.0018  T=2500: -0.0006  T=3000: -0.0021  T=end: -0.0021
+  sum-minus-integral alone (no Pi*(2)): -0.6007 at the end; Paper A section 2.5 predicts log L(0) - chi(2)/2 = -0.598612 for odd chi
+
+data/chi_D-7_zeros_pari3000.txt: D=-7 (odd chi, q=7)  I(2,chi)=0.4314886425  Pi*(2,chi)=0.5
+  count: 3397 zeros to 2999.084; RvM (T/2pi)log(qT/2pi e) = 3395.7 (diff +1.3); theta/pi + 0.5: 500:-0.19 1000:-0.07 1500:+0.41 2000:-0.15 2500:+0.19 2999:+0.68
+  PARI: L(0)=1.0  L(1)=1.187410412  L'(0)=0.4535468923  h=1  w=2  reg=1.0  chi(2)=1
+  class number formula: L(0,chi) - 2h/w = 0.0;  prediction B_T -> log L(0,chi) = 0.0
+  B_T:  T=500: -0.0095  T=1000: +0.0003  T=1500: +0.0045  T=2000: +0.0036  T=2500: -0.0003  T=3000: -0.0029  T=end: -0.0029
+  B_T - log L(0):  T=500: -0.0095  T=1000: +0.0003  T=1500: +0.0045  T=2000: +0.0036  T=2500: -0.0003  T=3000: -0.0029  T=end: -0.0029
+  sum-minus-integral alone (no Pi*(2)): -0.5029 at the end; Paper A section 2.5 predicts log L(0) - chi(2)/2 = -0.5 for odd chi
+
+data/chi_D-8_zeros_pari3000.txt: D=-8 (odd chi, q=8)  I(2,chi)=0.4314886425  Pi*(2,chi)=0.0
+  count: 3461 zeros to 2999.530; RvM (T/2pi)log(qT/2pi e) = 3460.0 (diff +1.0); theta/pi + 0.0: 500:+0.69 1000:+0.18 1500:+0.04 2000:-0.15 2500:-0.44 2999:-0.14
+  PARI: L(0)=1.0  L(1)=1.110720735  L'(0)=0.3563625954  h=1  w=2  reg=1.0  chi(2)=0
+  class number formula: L(0,chi) - 2h/w = 0.0;  prediction B_T -> log L(0,chi) = 0.0
+  B_T:  T=500: -0.0074  T=1000: +0.0040  T=1500: +0.0046  T=2000: +0.0024  T=2500: -0.0016  T=3000: -0.0017  T=end: -0.0025
+  B_T - log L(0):  T=500: -0.0074  T=1000: +0.0040  T=1500: +0.0046  T=2000: +0.0024  T=2500: -0.0016  T=3000: -0.0017  T=end: -0.0025
+
+data/chi_D12_zeros_pari3000.txt: D=12 (even chi, q=12)  I(2,chi)=0.5065230217  Pi*(2,chi)=0.0
+  count: 3654 zeros to 2999.417; RvM (T/2pi)log(qT/2pi e) = 3653.4 (diff +0.6); theta/pi + 0.0: 500:-0.33 1000:-0.10 1500:-0.51 2000:+0.04 2500:+0.48 2999:+0.70
+  PARI: L(0)=0.0  L(1)=0.7603459963  L'(0)=1.316957897  h=1  w=2  reg=1.316957897  chi(2)=0
+  class number formula: L'(0,chi) - h log eps = 0.0;  reference log L'(0,chi) = 0.27532445 (no prediction: residual printed)
+  B_T:  T=500: -0.3108  T=1000: -0.2994  T=1500: -0.2972  T=2000: -0.2995  T=2500: -0.3020  T=3000: -0.3046  T=end: -0.3046
+  B_T - log L'(0):  T=500: -0.5861  T=1000: -0.5747  T=1500: -0.5726  T=2000: -0.5748  T=2500: -0.5773  T=3000: -0.5799  T=end: -0.5799
+
+data/chi_D13_zeros_pari3000.txt: D=13 (even chi, q=13)  I(2,chi)=0.5065230217  Pi*(2,chi)=-0.5
+  count: 3693 zeros to 2999.967; RvM (T/2pi)log(qT/2pi e) = 3692.4 (diff +0.6); theta/pi + 0.5: 500:-0.20 1000:-0.34 1500:-0.12 2000:+0.06 2500:-0.87 2999:-0.77
+  PARI: L(0)=0.0  L(1)=0.6627353911  L'(0)=1.194763217  h=1  w=2  reg=1.194763217  chi(2)=-1
+  class number formula: L'(0,chi) - h log eps = 0.0;  reference log L'(0,chi) = 0.17794802 (no prediction: residual printed)
+  B_T:  T=500: -0.4101  T=1000: -0.3954  T=1500: -0.3941  T=2000: -0.3966  T=2500: -0.3997  T=3000: -0.4016  T=end: -0.4020
+  B_T - log L'(0):  T=500: -0.5880  T=1000: -0.5734  T=1500: -0.5720  T=2000: -0.5745  T=2500: -0.5777  T=3000: -0.5795  T=end: -0.5799
+  sum-minus-integral alone (no Pi*(2)): +0.0980 at the end; Paper A section 2.5 predicts log L(0) - chi(2)/2 = n/a for odd chi
+
+data/chi_D17_zeros_pari3000.txt: D=17 (even chi, q=17)  I(2,chi)=0.5065230217  Pi*(2,chi)=0.5
+  count: 3821 zeros to 2999.842; RvM (T/2pi)log(qT/2pi e) = 3820.3 (diff +0.7); theta/pi + 0.0: 500:-0.05 1000:-0.54 1500:+0.34 2000:+0.17 2500:+0.89 2999:-0.18
+  PARI: L(0)=0.0  L(1)=1.016084834  L'(0)=2.094712547  h=1  w=2  reg=2.094712547  chi(2)=1
+  class number formula: L'(0,chi) - h log eps = 0.0;  reference log L'(0,chi) = 0.73941634 (no prediction: residual printed)
+  B_T:  T=500: +0.1549  T=1000: +0.1630  T=1500: +0.1679  T=2000: +0.1662  T=2500: +0.1615  T=3000: +0.1595  T=end: +0.1589
+  B_T - log L'(0):  T=500: -0.5845  T=1000: -0.5764  T=1500: -0.5715  T=2000: -0.5732  T=2500: -0.5779  T=3000: -0.5799  T=end: -0.5805
+  sum-minus-integral alone (no Pi*(2)): -0.3411 at the end; Paper A section 2.5 predicts log L(0) - chi(2)/2 = n/a for odd chi
+
+data/chi_D21_zeros_pari3000.txt: D=21 (even chi, q=21)  I(2,chi)=0.5065230217  Pi*(2,chi)=-0.5
+  count: 3921 zeros to 2999.610; RvM (T/2pi)log(qT/2pi e) = 3920.9 (diff +0.1); theta/pi + 0.0: 500:+0.14 1000:-0.17 1500:-0.11 2000:-0.09 2500:-0.19 2999:+0.27
+  PARI: L(0)=0.0  L(1)=0.6838072478  L'(0)=1.566799237  h=1  w=2  reg=1.566799237  chi(2)=-1
+  class number formula: L'(0,chi) - h log eps = 0.0;  reference log L'(0,chi) = 0.44903484 (no prediction: residual printed)
+  B_T:  T=500: -0.1355  T=1000: -0.1260  T=1500: -0.1226  T=2000: -0.1241  T=2500: -0.1289  T=3000: -0.1308  T=end: -0.1308
+  B_T - log L'(0):  T=500: -0.5846  T=1000: -0.5750  T=1500: -0.5716  T=2000: -0.5731  T=2500: -0.5779  T=3000: -0.5798  T=end: -0.5798
+  sum-minus-integral alone (no Pi*(2)): +0.3692 at the end; Paper A section 2.5 predicts log L(0) - chi(2)/2 = n/a for odd chi
+
+data/chi_D24_zeros_pari3000.txt: D=24 (even chi, q=24)  I(2,chi)=0.5065230217  Pi*(2,chi)=0.0
+  count: 3985 zeros to 2999.934; RvM (T/2pi)log(qT/2pi e) = 3985.1 (diff -0.1); theta/pi + 0.0: 500:-0.49 1000:-0.42 1500:+0.01 2000:+0.40 2500:-0.32 2999:+0.04
+  PARI: L(0)=0.0  L(1)=0.9358813101  L'(0)=2.29243167  h=1  w=2  reg=2.29243167  chi(2)=0
+  class number formula: L'(0,chi) - h log eps = 0.0;  reference log L'(0,chi) = 0.82961312 (no prediction: residual printed)
+  B_T:  T=500: +0.2409  T=1000: +0.2540  T=1500: +0.2582  T=2000: +0.2560  T=2500: +0.2536  T=3000: +0.2499  T=end: +0.2499
+  B_T - log L'(0):  T=500: -0.5887  T=1000: -0.5756  T=1500: -0.5715  T=2000: -0.5736  T=2500: -0.5760  T=3000: -0.5797  T=end: -0.5797
+
+data/chi_D28_zeros_pari3000.txt: D=28 (even chi, q=28)  I(2,chi)=0.5065230217  Pi*(2,chi)=0.0
+  count: 4059 zeros to 2999.805; RvM (T/2pi)log(qT/2pi e) = 4058.5 (diff +0.5); theta/pi + 0.0: 500:+0.24 1000:+0.05 1500:+0.21 2000:+0.33 2500:+0.35 2999:-0.36
+  PARI: L(0)=0.0  L(1)=1.046454885  L'(0)=2.768659383  h=1  w=2  reg=2.768659383  chi(2)=0
+  class number formula: L'(0,chi) - h log eps = 0.0;  reference log L'(0,chi) = 1.0183632 (no prediction: residual printed)
+  B_T:  T=500: +0.4292  T=1000: +0.4451  T=1500: +0.4456  T=2000: +0.4444  T=2500: +0.4412  T=3000: +0.4388  T=end: +0.4383
+  B_T - log L'(0):  T=500: -0.5891  T=1000: -0.5733  T=1500: -0.5728  T=2000: -0.5740  T=2500: -0.5771  T=3000: -0.5795  T=end: -0.5801
+
+data/chi_D40_zeros_pari3000.txt: D=40 (even chi, q=40)  I(2,chi)=0.5065230217  Pi*(2,chi)=0.0
+  count: 4229 zeros to 2999.847; RvM (T/2pi)log(qT/2pi e) = 4228.8 (diff +0.2); theta/pi + 0.5: 500:-0.64 1000:-0.22 1500:-0.44 2000:-0.70 2500:-0.07 2999:-0.22
+  PARI: L(0)=0.0  L(1)=1.150086523  L'(0)=3.636892918  h=2  w=2  reg=1.818446459  chi(2)=0
+  class number formula: L'(0,chi) - h log eps = 0.0;  reference log L'(0,chi) = 1.2911297 (no prediction: residual printed)
+  B_T:  T=500: +0.7048  T=1000: +0.7187  T=1500: +0.7188  T=2000: +0.7168  T=2500: +0.7139  T=3000: +0.7118  T=end: +0.7113
+  B_T - log L'(0):  T=500: -0.5863  T=1000: -0.5725  T=1500: -0.5724  T=2000: -0.5743  T=2500: -0.5772  T=3000: -0.5793  T=end: -0.5798
+
+data/chi_D5_zeros_pari3000.txt: D=5 (even chi, q=5)  I(2,chi)=0.5065230217  Pi*(2,chi)=-0.5
+  count: 3236 zeros to 2999.479; RvM (T/2pi)log(qT/2pi e) = 3235.6 (diff +0.4); theta/pi + 0.0: 500:+0.34 1000:+0.23 1500:+0.49 2000:-0.29 2500:-0.18 2999:-0.45
+  PARI: L(0)=0.0  L(1)=0.430408941  L'(0)=0.4812118251  h=1  w=2  reg=0.4812118251  chi(2)=-1
+  class number formula: L'(0,chi) - h log eps = 0.0;  reference log L'(0,chi) = -0.73144772 (no prediction: residual printed)
+  B_T:  T=500: -1.3136  T=1000: -1.3062  T=1500: -1.3036  T=2000: -1.3057  T=2500: -1.3094  T=3000: -1.3113  T=end: -1.3113
+  B_T - log L'(0):  T=500: -0.5821  T=1000: -0.5748  T=1500: -0.5722  T=2000: -0.5742  T=2500: -0.5780  T=3000: -0.5798  T=end: -0.5798
+  sum-minus-integral alone (no Pi*(2)): -0.8113 at the end; Paper A section 2.5 predicts log L(0) - chi(2)/2 = n/a for odd chi
+
+data/chi_D65_zeros_pari3000.txt: D=65 (even chi, q=65)  I(2,chi)=0.5065230217  Pi*(2,chi)=0.5
+  count: 4461 zeros to 2999.894; RvM (T/2pi)log(qT/2pi e) = 4460.7 (diff +0.3); theta/pi + 0.5: 500:-0.27 1000:-0.49 1500:-0.35 2000:-0.24 2500:-0.24 2999:-0.10
+  PARI: L(0)=0.0  L(1)=1.37751601  L'(0)=5.552944561  h=2  w=2  reg=2.776472281  chi(2)=1
+  class number formula: L'(0,chi) - h log eps = 0.0;  reference log L'(0,chi) = 1.7143283 (no prediction: residual printed)
+  B_T:  T=500: +1.1241  T=1000: +1.1367  T=1500: +1.1422  T=2000: +1.1415  T=2500: +1.1374  T=3000: +1.1336  T=end: +1.1336
+  B_T - log L'(0):  T=500: -0.5903  T=1000: -0.5776  T=1500: -0.5721  T=2000: -0.5729  T=2500: -0.5770  T=3000: -0.5807  T=end: -0.5807
+  sum-minus-integral alone (no Pi*(2)): +0.6336 at the end; Paper A section 2.5 predicts log L(0) - chi(2)/2 = n/a for odd chi
+
+data/chi_D8_zeros_pari3000.txt: D=8 (even chi, q=8)  I(2,chi)=0.5065230217  Pi*(2,chi)=0.0
+  count: 3460 zeros to 2998.640; RvM (T/2pi)log(qT/2pi e) = 3458.8 (diff +1.2); theta/pi + 0.5: 500:-0.56 1000:-0.07 1500:-0.21 2000:-0.40 2500:-0.69 2998:+0.78
+  PARI: L(0)=0.0  L(1)=0.6232252401  L'(0)=0.881373587  h=1  w=2  reg=0.881373587  chi(2)=0
+  class number formula: L'(0,chi) - h log eps = 0.0;  reference log L'(0,chi) = -0.12627369 (no prediction: residual printed)
+  B_T:  T=500: -0.7103  T=1000: -0.7034  T=1500: -0.6989  T=2000: -0.7000  T=2500: -0.7041  T=end: -0.7061
+  B_T - log L'(0):  T=500: -0.5840  T=1000: -0.5771  T=1500: -0.5727  T=2000: -0.5737  T=2500: -0.5778  T=end: -0.5798
+

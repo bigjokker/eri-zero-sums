@@ -1,0 +1,25 @@
+# Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# External inputs must be obtained separately and are not covered by our license.
+/data/zeros1*
+
+# Staged regeneration, diagnostic logs and local smoke-check outputs
+/data/regenerated/
+/data/local-checks/
+*.log
+*.err
+*.stdout
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

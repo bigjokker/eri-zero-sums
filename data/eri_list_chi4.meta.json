@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "x": 1.1,
+  "branch": "Elliott upper half-plane; pair = 2 Re ERi",
+  "source_sha256": "80e9b8ca2cba6405bb3e0b33ca0e41bab8fb95d03964c0a0c7d9a468bc5f53d6",
+  "evaluator_sha256": "be4a7224b87ddc3e0b38ab8df1298cd219d5105668cbf7adb749effb6d59f63c",
+  "generator_sha256": "25bb1e93e4f7fc422adf33159099e80fb31b31b929b7b45c6d33324d0ab23fd3",
+  "rows": 12349,
+  "numpy": "2.2.6",
+  "csv_sha256": "7e58fefee0fd2ac740c56974e04cfebb0e5834a187ce7165ac6d04ec1b920226"
+}

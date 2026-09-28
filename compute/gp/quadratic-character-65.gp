@@ -1,0 +1,10 @@
+default(parisize, "2G");
+D = 65;
+L = lfuncreate(D);
+K = quadclassunit(D);
+w = if(D==-3, 6, if(D==-4, 4, 2));
+reg = if(D > 0, K.reg, 1);
+print("# D=", D, " L0=", lfun(L,0), " L1=", lfun(L,1), " Lp0=", lfun(L,0,1), " h=", K.no, " w=", w, " reg=", reg, " chi2=", kronecker(D,2));
+z = lfunzeros(L, 3000, 16);
+for(i=1, #z, print(z[i]));
+quit;

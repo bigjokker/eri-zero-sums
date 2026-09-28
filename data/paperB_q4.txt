@@ -1,0 +1,52 @@
+Numerical comparison using the first 60 zeta residues; centres fitted unless stated.
+Finite model amplitudes are not the full conditional envelope. Final [8192,10000) range is incomplete.
+zeta sum, 10142 zeros to 9998.9, C = 2 pi log x (its own): fitted centre -8.9414 (paper: L = -8.9418), rms model residual 0.089
+zeta sum, 10142 zeros to 9998.9, C = (pi/2) log x (wrong for zeta): fitted centre -9.0715 (paper: L = -8.9418), rms model residual 1.243
+chi_-4 sum, 12349 zeros to 9999.9, C = (pi/2) log x (Paper B): fitted centre -10.4867, rms model residual 0.107, max |resid| 0.409
+chi_-4 sum, 12349 zeros to 9999.9, C = 2 pi log x (zeta value): fitted centre -10.3596, rms model residual 1.258, max |resid| 3.394
+
+model vs data at checkpoints (chi_-4, Paper B C), relative error of the oscillation:
+  T= 1238.4  S-ell=   -3.063  model=   -3.047  diff= -0.016  rel= 0.005
+  T= 2188.1  S-ell=    5.109  model=    5.129  diff= -0.020  rel= 0.004
+  T= 3068.5  S-ell=   -4.209  model=   -4.319  diff=  0.110  rel= 0.026
+  T= 4722.3  S-ell=   -7.538  model=   -7.596  diff=  0.058  rel= 0.008
+  T= 5514.7  S-ell=    8.095  model=    7.894  diff=  0.202  rel= 0.025
+  T= 7051.1  S-ell=  -18.567  model=  -18.336  diff= -0.231  rel= 0.012
+  T= 7803.0  S-ell=   10.514  model=   10.586  diff= -0.072  rel= 0.007
+  T= 8543.1  S-ell=    8.585  model=    8.438  diff=  0.147  rel= 0.017
+  T= 9274.5  S-ell=    5.753  model=    5.638  diff=  0.116  rel= 0.020
+  T= 9998.6  S-ell=   -4.447  model=   -4.305  diff= -0.142  rel= 0.032
+
+zeta (centre = L of the zeta paper): centre -8.9418
+       T range     max|S-c|     max|F|     max|F_q|  max/sqrtT
+     64-128           0.667     0.0353       0.0353     0.0826
+    128-256           1.085     0.0224       0.0224     0.0773
+    256-512           2.202     0.0237       0.0237     0.1019
+    512-1024          3.530     0.0227       0.0227     0.1142
+   1024-2048          4.088     0.0235       0.0235     0.1218
+   2048-4096          7.406     0.0223       0.0223     0.1316
+   4096-8192         15.513     0.0263       0.0263     0.1848
+   8192-10000         8.303     0.0128       0.0128     0.0917
+
+chi_-4 (centre fitted, Paper B C); F_q uses log(4T/2pi): centre -10.4867
+       T range     max|S-c|     max|F|     max|F_q|  max/sqrtT
+     64-128           0.923     0.0490       0.0308     0.1145
+    128-256           1.526     0.0316       0.0225     0.1087
+    256-512           2.914     0.0314       0.0237     0.1350
+    512-1024          4.507     0.0290       0.0227     0.1457
+   1024-2048          5.176     0.0297       0.0234     0.1542
+   2048-4096          9.028     0.0276       0.0223     0.1625
+   4096-8192         18.584     0.0315       0.0263     0.2214
+   8192-10000         9.899     0.0152       0.0128     0.1094
+
+the two normalised functions on the common range T in [64, 9999]:
+  rms F_zeta = 0.0130, rms F_chi = 0.0173 (log(T/2pi)) / 0.0130 (log(4T/2pi)); correlation(F_zeta, F_chi) = 0.998; rms(F_chi[log 4T/2pi] - F_zeta) = 0.0008
+  per-octave max |(S_chi - ell) - (S_zeta - L)| / sqrt T   (Paper B: the difference is O(sqrt T), from log q times the integral of f_A):
+       64-128      0.0683
+      128-256      0.0317
+      256-512      0.0331
+      512-1024     0.0316
+     1024-2048     0.0324
+     2048-4096     0.0309
+     4096-8192     0.0366
+     8192-10000    0.0176
