@@ -1,10 +1,13 @@
 # Research status
 
 Author: **Open**. Release: **0.1.0**, 27 September 2026.
+Zenodo concept DOI: [10.5281/zenodo.23004250](https://doi.org/10.5281/zenodo.23004250).
+Version 0.1.0: [10.5281/zenodo.23004251](https://doi.org/10.5281/zenodo.23004251).
 
 This repository is ready to share as a research draft with a numerical companion.
 It is not a journal acceptance, independent theorem certification or claim that
-priority has been established by an exhaustive literature search.
+priority has been established by an exhaustive literature search. The Zenodo DOI
+archives this release. It does not add a peer review.
 
 ## What the manuscripts claim
 

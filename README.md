@@ -1,5 +1,7 @@
 # ERi Zero Sums
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23004250.svg)](https://zenodo.org/doi/10.5281/zenodo.23004250)
+
 **Open · Research manuscripts and numerical companion · September 2026**
 
 Three manuscripts study the entire Gram function ERi, its sums over zeta and
@@ -100,8 +102,11 @@ guide. `MANIFEST.json` records SHA-256 checksums of the packaged files.
 
 ## Citation and licensing
 
-Use the author name **Open** when citing these drafts. GitHub citation metadata
-is provided in [CITATION.cff](CITATION.cff); no journal publication or DOI is claimed.
+Use the author name **Open** when citing these drafts. The Zenodo archive is
+[10.5281/zenodo.23004250](https://doi.org/10.5281/zenodo.23004250) for all
+versions and [10.5281/zenodo.23004251](https://doi.org/10.5281/zenodo.23004251)
+for version 0.1.0. That DOI records the archived release. It is not a journal
+publication. GitHub citation metadata is in [CITATION.cff](CITATION.cff).
 
 Code and software documentation are licensed under [MIT](LICENSE).
 The manuscripts, research notes and original numerical results and figures are

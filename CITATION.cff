@@ -14,6 +14,14 @@ abstract: >-
   a finite real-character prime-counting identity, and numerical code and data.
   Conditional statements and remaining research limitations are documented.
 repository-code: "https://github.com/bigjokker/eri-zero-sums"
+doi: 10.5281/zenodo.23004250
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23004250
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: 10.5281/zenodo.23004251
+    description: "Version 0.1.0"
 keywords:
   - analytic number theory
   - Riemann zeta function
