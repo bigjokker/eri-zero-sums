@@ -8,7 +8,8 @@
   "sha256": {
     ".gitattributes": "2c629967fdfe8c62a07c27336df8715d5e1296d931946bd4674dfcb62716b75b",
     ".gitignore": "f79b98aa2c53495876882341d0d20d775bc5c5527b77e764ccdf7daff0db341d",
-    "CITATION.cff": "333491af89579d9fe248157da0b1ef3dc2c82305ded5a22c0a4957c9607562d1",
+    ".zenodo.json": "dc56452f987402c9a5bb7ccf76eeb98718f600e5510812117b5ec1b00df77dfd",
+    "CITATION.cff": "9cc388879a831888f3ee5c955212bb46b021de51437edea8bd888d904a5e0157",
     "compute/analyze.py": "abe1912201ecc6a6385d9f743596e7aa295d282b598da0e279984a9df794c463",
     "compute/bracket_D.py": "c921a59cb71c7b28ac89bdce8dff2bdb885fce37e39db120f85264e8e508deb8",
     "compute/check_regeneration.py": "00ae8c1dc32c77ca527d91723b985824c76999521f3418ec15a624b7b7b97c72",

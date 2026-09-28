@@ -1,0 +1,22 @@
+{
+  "title": "ERi Zero Sums: Research Manuscripts and Numerical Companion",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Open"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "version": "0.1.0",
+  "language": "eng",
+  "description": "<p>Research drafts on the entire Gram function ERi, its sums over zeros of the Riemann zeta function and of primitive Dirichlet L-functions, and a finite prime-counting identity for a real primitive character. The repository contains the three manuscripts, the computation code, selected numerical results, and figure-generation scripts.</p><p>The two-sided oscillation at scale sqrt(T) log(T), and the failure of every fixed nonnegative real Riesz order, are unconditional claims. The Bohr expansion uses the Weak Mertens Conjecture. The exact envelope and Bessel-product distribution also use linear independence of the positive zeta ordinates. The real-character identity is for the combination pi-star(x, chi) + pi-minus-star(sqrt(x)), not for one residue class by itself. The Dirichlet sum uses the untwisted ERi function indexed by the zeros of L(s, chi).</p><p>This is not a peer-reviewed publication, and a complete MathSciNet or zbMATH search has not established novelty. The numerical candidate for the zeta centre has not been proved equal to the contour constant. The 60-term and 400-term amplitudes are finite partial sums, not rigorous bounds for the infinite conditional envelope. Montgomery-Vaughan Theorem 10.17 was not read in full; the Dirichlet manuscript cites the local zero-count bound and height choice printed in Chapter 12.</p><p>The manuscripts, research notes, and original numerical results and figures are under Creative Commons Attribution 4.0. The software is under MIT. Zeta ordinates retained inside the Gram table are credited to Andrew Odlyzko and are outside these grants. The raw Odlyzko table, downloaded reference lists, and third-party papers are not included.</p><p>Reproduction uses Python 3.11 or later. See the README for the representative checks and the separate dependencies needed for plots.</p>",
+  "keywords": [
+    "analytic number theory",
+    "Riemann zeta function",
+    "Dirichlet L-functions",
+    "explicit formulas",
+    "Riesz summation"
+  ],
+  "notes": "Source code, manuscripts, and numerical companion: https://github.com/bigjokker/eri-zero-sums. Cite the author name as Open, matching the manuscripts."
+}

@@ -13,6 +13,7 @@ abstract: >-
   Research drafts on ERi zero sums for zeta and Dirichlet L-functions,
   a finite real-character prime-counting identity, and numerical code and data.
   Conditional statements and remaining research limitations are documented.
+repository-code: "https://github.com/bigjokker/eri-zero-sums"
 keywords:
   - analytic number theory
   - Riemann zeta function
